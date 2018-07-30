@@ -6,7 +6,7 @@
 ```
 
 <div class='ellipsis'>
-	<p>这里是一大堆可能会造成多行溢出的文字</div>
+	<p>这里是一大堆可能会造成多行溢出的文字</p>
 </div>
 
 ```
@@ -60,3 +60,4 @@
   background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
 ```
+over
