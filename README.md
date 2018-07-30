@@ -1,5 +1,5 @@
 # ellipsis
-多行文本的文字溢出及省略号显示，文本未超出则不显示溢出，兼容写法
+多行文本的文字溢出及省略号显示，文本未超出则不显示溢出，兼容写法纯CSS
  
 ### 已有文本框P标签
 文本结构 ：
@@ -15,7 +15,7 @@
  
 ```
 .ellipsis {
-	overflow: hidden;//这是溢出文字隐藏
+	overflow: hidden;//这是溢出文字隐藏，宽度可以在这里设置，也可以直接继承父级的宽度，建议继承
 	height: 82px;//这是文本框的高度和间距 lineHight * 3 + marginTop
 	line-height: 24px;// 82px - 24px * 3 = 10px, marginTop为10px，高度和行高决定产生几行文本 
 }
